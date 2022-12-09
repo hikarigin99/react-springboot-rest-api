@@ -1,4 +1,4 @@
-package com.example.gccoffee.order.vo;
+package com.example.gccoffee.order.service.vo;
 
 public enum ReceiveType {
     TAKEOUT("포장"),

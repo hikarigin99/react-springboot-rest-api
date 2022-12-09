@@ -1,7 +1,7 @@
 package com.example.gccoffee.order.controller;
 
-import com.example.gccoffee.order.dto.CreateOrderRequest;
-import com.example.gccoffee.order.vo.Order;
+import com.example.gccoffee.order.controller.dto.CreateOrderRequest;
+import com.example.gccoffee.order.service.vo.Order;
 import com.example.gccoffee.order.service.OrderService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -1,4 +1,4 @@
-package com.example.gccoffee.product.vo;
+package com.example.gccoffee.product.service.vo;
 
 public enum Category {
     ESPRESSO("에스프레소"),

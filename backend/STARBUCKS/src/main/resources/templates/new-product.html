@@ -28,7 +28,7 @@
         <label for="category" class="form-label">Category</label>
         <select id="category" name="category" class="form-select">
             <!--<option selected>Open this select menu</option>-->
-            <option th:each="category: ${T(com.example.gccoffee.product.vo.Category).values()}" th:value="${category}"
+            <option th:each="category: ${T(com.example.gccoffee.product.service.vo.Category).values()}" th:value="${category}"
                     th:text="${category.getKoreanName()}"/>
             <!-- spel-->
         </select>

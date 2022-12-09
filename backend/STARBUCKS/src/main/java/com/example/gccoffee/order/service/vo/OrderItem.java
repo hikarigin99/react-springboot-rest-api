@@ -1,6 +1,6 @@
-package com.example.gccoffee.order.vo;
+package com.example.gccoffee.order.service.vo;
 
-import com.example.gccoffee.product.vo.Category;
+import com.example.gccoffee.product.service.vo.Category;
 
 import java.util.UUID;
 

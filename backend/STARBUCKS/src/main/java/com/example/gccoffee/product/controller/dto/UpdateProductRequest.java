@@ -1,7 +1,7 @@
-package com.example.gccoffee.product.dto;
+package com.example.gccoffee.product.controller.dto;
 
-import com.example.gccoffee.product.vo.Category;
-import com.example.gccoffee.product.vo.Product;
+import com.example.gccoffee.product.service.vo.Category;
+import com.example.gccoffee.product.service.vo.Product;
 
 import java.time.LocalDateTime;
 import java.util.UUID;

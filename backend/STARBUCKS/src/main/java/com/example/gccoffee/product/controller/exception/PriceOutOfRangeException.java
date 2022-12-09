@@ -1,4 +1,4 @@
-package com.example.gccoffee.global.exception;
+package com.example.gccoffee.product.controller.exception;
 
 public class PriceOutOfRangeException extends RuntimeException {
 

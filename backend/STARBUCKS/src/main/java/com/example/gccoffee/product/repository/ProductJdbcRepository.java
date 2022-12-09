@@ -1,7 +1,7 @@
 package com.example.gccoffee.product.repository;
 
-import com.example.gccoffee.product.vo.Category;
-import com.example.gccoffee.product.vo.Product;
+import com.example.gccoffee.product.service.vo.Category;
+import com.example.gccoffee.product.service.vo.Product;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
@@ -10,8 +10,8 @@ import org.springframework.stereotype.Repository;
 import java.time.LocalDateTime;
 import java.util.*;
 
-import static com.example.gccoffee.JdbcUtils.toUUID;
-import static com.example.gccoffee.JdbcUtils.toLocalDateTime;
+import static com.example.gccoffee.global.utils.JdbcUtils.toUUID;
+import static com.example.gccoffee.global.utils.JdbcUtils.toLocalDateTime;
 
 @Repository
 public class ProductJdbcRepository implements ProductRepository {

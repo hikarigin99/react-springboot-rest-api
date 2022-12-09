@@ -1,4 +1,4 @@
-package com.example.gccoffee.order.vo;
+package com.example.gccoffee.order.service.vo;
 
 public enum OrderStatus {
     PAYMENT_CONFIRMED("결제 완료"),

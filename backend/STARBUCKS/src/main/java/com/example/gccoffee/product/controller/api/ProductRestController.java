@@ -1,7 +1,7 @@
 package com.example.gccoffee.product.controller.api;
 
-import com.example.gccoffee.product.vo.Category;
-import com.example.gccoffee.product.vo.Product;
+import com.example.gccoffee.product.service.vo.Category;
+import com.example.gccoffee.product.service.vo.Product;
 import com.example.gccoffee.product.service.ProductService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;

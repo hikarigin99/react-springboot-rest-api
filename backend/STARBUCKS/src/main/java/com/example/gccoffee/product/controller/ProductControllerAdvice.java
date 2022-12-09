@@ -1,6 +1,6 @@
 package com.example.gccoffee.product.controller;
 
-import com.example.gccoffee.global.exception.PriceOutOfRangeException;
+import com.example.gccoffee.product.controller.exception.PriceOutOfRangeException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 

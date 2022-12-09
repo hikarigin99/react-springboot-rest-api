@@ -1,4 +1,4 @@
-package com.example.gccoffee;
+package com.example.gccoffee.global.utils;
 
 import java.nio.ByteBuffer;
 import java.sql.Timestamp;

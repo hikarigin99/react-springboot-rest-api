@@ -33,7 +33,7 @@
             <div>
                 <label for="category">Category</label>
                 <select class="form-control select" id="category" name="category">
-                    <option th:each="category: ${T(com.example.gccoffee.product.vo.Category).values()}"
+                    <option th:each="category: ${T(com.example.gccoffee.product.service.vo.Category).values()}"
                             th:value="${category}"
                             th:text="${category.getKoreanName()}" th:selected="${category}==${product.getCategory()}"/>
                 </select>

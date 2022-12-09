@@ -1,6 +1,6 @@
-package com.example.gccoffee.product.vo;
+package com.example.gccoffee.product.service.vo;
 
-import com.example.gccoffee.global.exception.PriceOutOfRangeException;
+import com.example.gccoffee.product.controller.exception.PriceOutOfRangeException;
 
 import java.time.LocalDateTime;
 import java.util.UUID;

@@ -1,8 +1,8 @@
 package com.example.gccoffee.repository;
 
 import com.example.gccoffee.product.repository.ProductRepository;
-import com.example.gccoffee.product.vo.Category;
-import com.example.gccoffee.product.vo.Product;
+import com.example.gccoffee.product.service.vo.Category;
+import com.example.gccoffee.product.service.vo.Product;
 import com.wix.mysql.EmbeddedMysql;
 import com.wix.mysql.ScriptResolver;
 import com.wix.mysql.config.Charset;

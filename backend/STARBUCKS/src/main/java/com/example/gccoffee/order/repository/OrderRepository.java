@@ -1,6 +1,6 @@
 package com.example.gccoffee.order.repository;
 
-import com.example.gccoffee.order.vo.Order;
+import com.example.gccoffee.order.service.vo.Order;
 
 public interface OrderRepository {
 
